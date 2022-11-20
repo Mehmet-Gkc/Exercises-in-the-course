@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="index.js" method="post">
+      <!-- Get -> URL-->
+      <!-- Post -> JSon-->
+      <fieldset>
+        <legend>Your Info</legend>
+        <input type="text" name="" id="" placeholder="Vorname" />
+      </fieldset>
+      <label for="lastname">Last Name</label> <br />
+      <input type="text" name="lastname" id="lastname" placeholder="Nachname" />
+      <fieldset>
+        <legend>Bank Account</legend>
+        <input type="button" value="+" />
+        <input type="button" value="-" />
+        <input type="time" name="" id="" />
+        <input type="color" name="" id="" />
+        <input type="password" name="pass" id="pass" />
+        Bist du allein?
+        <select name="single" id="">
+          <option value="Select">Select</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+        <br />
+        Haben Sie ein Kind?
+        <input type="radio" name="kinder" id="" /> Ja
+        <input type="radio" name="kinder" id="" /> Nein
+        <br />
+        Do you want to unsere newsletter every day?
+        <input type="checkbox" name="newletter" id="newsletter">
+        <br />
+        <button type="reset">Reset</button>
+        <button>Click Me</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
